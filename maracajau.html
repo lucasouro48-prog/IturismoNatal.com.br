@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Maracajaú | iTurismo</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:white;
+color:#222;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:flex-end;
+align-items:center;
+padding:20px 8%;
+background:white;
+position:fixed;
+width:100%;
+top:0;
+z-index:999;
+border-bottom:1px solid #eee;
+}
+
+nav{
+display:flex;
+gap:30px;
+}
+
+nav a{
+text-decoration:none;
+color:#222;
+font-weight:500;
+}
+
+nav a:hover{
+color:#2f9e44;
+}
+
+.menu-mobile{
+display:none;
+font-size:28px;
+cursor:pointer;
+}
+
+/* BANNER */
+
+.banner{
+height:65vh;
+background:url("https://tse2.mm.bing.net/th/id/OIP.huHCtBCKXrKp9o13bwnUjAHaEq?rs=1&pid=ImgDetMain&o=7&rm=3") center/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+margin-top:80px;
+}
+
+.banner h1{
+color:white;
+font-size:40px;
+background:rgba(0,0,0,0.4);
+padding:15px 30px;
+border-radius:6px;
+}
+
+/* CONTAINER */
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:80px 8%;
+}
+
+h2{
+color:#2f9e44;
+margin-bottom:15px;
+}
+
+p{
+line-height:1.6;
+margin-bottom:25px;
+}
+
+/* CARDS */
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+margin-top:30px;
+}
+
+.card{
+background:#f7f7f7;
+padding:30px;
+border-radius:10px;
+box-shadow:0 5px 20px rgba(0,0,0,0.05);
+}
+
+.card li{
+margin-bottom:10px;
+}
+
+/* BOTÃO */
+
+.btn{
+display:inline-block;
+margin-top:30px;
+background:#2f9e44;
+color:white;
+padding:15px 30px;
+border-radius:6px;
+text-decoration:none;
+}
+
+.galeria{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin-top:40px;
+}
+
+.galeria img{
+width:100%;
+border-radius:10px;
+}
+
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:40px;
+}
+
+/* WHATSAPP */
+
+.whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+background:#25d366;
+color:white;
+padding:14px 18px;
+border-radius:50px;
+text-decoration:none;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+nav{
+display:none;
+flex-direction:column;
+position:absolute;
+top:70px;
+right:0;
+background:white;
+width:200px;
+padding:20px;
+border:1px solid #eee;
+}
+
+.menu-mobile{
+display:block;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<nav id="menu">
+<a href="index.html">volta ao inicio</a>
+
+</header>
+
+<section class="banner">
+<h1>Maracajaú</h1>
+</section>
+
+<section class="container">
+
+<h2>Passeio a Maracajau</h2>
+
+<p>
+Passeio a Maracajau
+Localizado a 58 km no litoral norte Maracajau detem o titulo de caribe potiguar 
+local de uma vasta beleza natural e uma maravilhosa fauna marinha
+Nesse passeio as Saidas são diarias de acordo com a tábua de maré, 
+nosso ponto de apoio com uma estrutura rustica e típica da região, 
+ambiente agradavel para atender a todos com restaurante servindo comidas
+ típicas, com simplicidade e conforto.
+Nesse contesto venha curtir e se diverti nos parrachos, o embarque e
+ de catamarã com mascara e snorkel incluso para o mergulho.
+</p>
+
+<p>
+Durante o passeio você embarca em uma lancha ou catamarã
+até os parrachos, onde poderá praticar snorkel e aproveitar
+as águas transparentes e a rica biodiversidade marinha.
+</p>
+
+<div class="cards">
+
+<div class="card">
+
+<h2>Roteiro do passeio</h2>
+
+<ul>
+
+<li>✔ Saída de Natal pela manhã</li>
+<li>✔ Chegada em Maracajaú</li>
+<li>✔ Embarque para os parrachos</li>
+<li>✔ Mergulho com snorkel</li>
+<li>✔ Tempo livre na praia</li>
+<li>✔ Retorno no período da tarde</li>
+<li>✔ Transporte ida e volta </li>
+<li>✔ Transporte com ar condicionado</li>
+
+</ul>
+
+</div>
+
+<div class="card">
+
+<h2>Políticas do passeio</h2>
+
+<ul>
+
+<li>✔ Cancelamento com 24h de antecedência</li>
+<li>✔ Passeio depende da maré</li>
+<li>✔ Equipamento de snorkel opcional</li>
+<li>✔ Horário pode variar conforme hotel</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<a class="btn" href="https://wa.me/558498668090">
+Reservar passeio
+</a>
+
+<h2 style="margin-top:60px;">Galeria do passeio</h2>
+
+<div class="galeria">
+
+<img src="https://tse3.mm.bing.net/th/id/OIP.OAmCAG51PzPONLIiGFFWogHaEo?rs=1&pid=ImgDetMain&o=7&rm=3">
+<img src="https://www.cvc.com.br/dicas-de-viagem/wp-content/uploads/2017/11/natal-maracajau-pessoas-nadando-rio-grande-do-norte-divulgacao-cvc.jpg">
+<img src="https://th.bing.com/th/id/R.f7eb3ec2cd708da8b0389bcea428536e?rik=myjE4nKNLgH9Ig&riu=http%3a%2f%2f1.bp.blogspot.com%2f-YvvTfAXdQzM%2fUJahJC1f5OI%2fAAAAAAABjl8%2fKxO6RfZ51BQ%2fs1600%2f00.png&ehk=lSAnTeiReKGcKR2A1hL%2bgphDpS6aS%2fa9IOJDjSccF4E%3d&risl=&pid=ImgRaw&r=0">
+<img src="https://th.bing.com/th/id/R.dcadbe6df6ca5fa2d03fb50f6f5d3ef7?rik=PKlHZzZYXL%2bXSQ&pid=ImgRaw&r=0">
+
+</div>
+
+</section>
+
+<footer>
+
+<p>iTurismo</p>
+<p>📍 Natal RN</p>
+<p>📱 +55 84 9866-8090</p>
+
+</footer>
+
+<a class="whatsapp" href="https://wa.me/558498668090">
+WhatsApp
+</a>
+
+<script>
+
+function toggleMenu(){
+
+let menu=document.getElementById("menu");
+
+if(menu.style.display==="flex"){
+menu.style.display="none";
+}else{
+menu.style.display="flex";
+}
+
+}
+
+</script>
+
+</body>
+</html>
